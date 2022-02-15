@@ -1,0 +1,20 @@
+plugins {
+    id 'org.jetbrains.intellij' version '1.4.0'
+}
+
+group 'tech.fcscode'
+version '1.0-SNAPSHOT'
+
+// See https://github.com/JetBrains/gradle-intellij-plugin/
+intellij {
+    version = '2021.3.2'
+}
+patchPluginXml {
+    changeNotes = """
+      First version released"""
+}
+
+repositories {
+    mavenCentral()
+}
+

@@ -1,0 +1,20 @@
+<idea-plugin>
+    <id>Fcscode-Theme</id>
+    <name>Fcscode Theme</name>
+    <vendor email="fcsuarez96@gmail.com">Fcscode</vendor>
+
+    <description>Theme inspired in Jetbrains Rider visual studio dark and Monokai pro</description>
+
+    <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+        <themeProvider id="c8ad82de-48cb-4ad5-a81d-3b9605541aa1" path="/Fcscode_Theme.theme.json"/>
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+</idea-plugin>
