@@ -3,17 +3,24 @@ plugins {
 }
 
 group 'tech.fcscode'
-version '1.0-SNAPSHOT'
+version '1.1.0'
 
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {
     version = '2021.3.2'
 }
-patchPluginXml {
-    changeNotes = """
-      First version released"""
-}
 
+patchPluginXml {
+    sinceBuild = '201'
+    untilBuild = '221.*'
+    version project.version
+    changeNotes = """
+    <ul>
+    <li>1.1.0   Added custom keymap bundle</li>
+    <li>1.0.0   Plugin release</li>
+    </ul>
+      """
+}
 repositories {
     mavenCentral()
 }

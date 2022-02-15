@@ -1,7 +1,8 @@
 <idea-plugin>
-    <id>Fcscode-Theme</id>
+    <id>org.example.Fcscode-Theme</id>
     <name>Fcscode Theme</name>
     <vendor email="fcsuarez96@gmail.com">Fcscode</vendor>
+    <version>1.1.0</version>
 
     <description>Theme inspired in Jetbrains Rider visual studio dark and Monokai pro</description>
 
@@ -12,6 +13,7 @@
     <extensions defaultExtensionNs="com.intellij">
         <!-- Add your extensions here -->
         <themeProvider id="c8ad82de-48cb-4ad5-a81d-3b9605541aa1" path="/Fcscode_Theme.theme.json"/>
+        <bundledKeymap file="fcscode.xml"/>
     </extensions>
 
     <actions>

@@ -1,0 +1,47 @@
+<keymap version="1" name="fcscode" parent="Mac OS X 10.5+">
+    <action id="ActivateBookmarksToolWindow" />
+    <action id="ActivateRunToolWindow">
+        <keyboard-shortcut first-keystroke="meta 2" />
+    </action>
+    <action id="Android.Designer.AssignStartDestination" />
+    <action id="EditorDown">
+        <keyboard-shortcut first-keystroke="down" />
+        <keyboard-shortcut first-keystroke="ctrl n" />
+        <keyboard-shortcut first-keystroke="j" />
+    </action>
+    <action id="EditorLeft">
+        <keyboard-shortcut first-keystroke="left" />
+        <keyboard-shortcut first-keystroke="ctrl b" />
+        <keyboard-shortcut first-keystroke="h" />
+    </action>
+    <action id="EditorRight">
+        <keyboard-shortcut first-keystroke="right" />
+        <keyboard-shortcut first-keystroke="ctrl f" />
+        <keyboard-shortcut first-keystroke="l" />
+    </action>
+    <action id="EditorUp">
+        <keyboard-shortcut first-keystroke="up" />
+        <keyboard-shortcut first-keystroke="ctrl p" />
+        <keyboard-shortcut first-keystroke="k" />
+    </action>
+    <action id="Tree-selectChild">
+        <keyboard-shortcut first-keystroke="right" />
+        <keyboard-shortcut first-keystroke="ctrl f" />
+        <keyboard-shortcut first-keystroke="l" />
+    </action>
+    <action id="Tree-selectNext">
+        <keyboard-shortcut first-keystroke="down" />
+        <keyboard-shortcut first-keystroke="ctrl n" />
+        <keyboard-shortcut first-keystroke="j" />
+    </action>
+    <action id="Tree-selectParent">
+        <keyboard-shortcut first-keystroke="left" />
+        <keyboard-shortcut first-keystroke="ctrl b" />
+        <keyboard-shortcut first-keystroke="h" />
+    </action>
+    <action id="Tree-selectPrevious">
+        <keyboard-shortcut first-keystroke="up" />
+        <keyboard-shortcut first-keystroke="ctrl p" />
+        <keyboard-shortcut first-keystroke="k" />
+    </action>
+</keymap>
