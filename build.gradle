@@ -3,7 +3,7 @@ plugins {
 }
 
 group 'tech.fcscode'
-version '1.1.0'
+version '1.2.0'
 
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {
@@ -16,6 +16,7 @@ patchPluginXml {
     version project.version
     changeNotes = """
     <ul>
+    <li>1.1.0   Added git file status colors</li>
     <li>1.1.0   Added custom keymap bundle</li>
     <li>1.0.0   Plugin release</li>
     </ul>

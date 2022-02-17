@@ -76,10 +76,7 @@
       "startBackground": "base3",
       "startBorderColor": "base3"
     },
-    "CheckBox": {
-      "background": "base2",
-      "disabledText": "base4",
-      "foreground": "base8",
+    "CheckBox": { "background": "base2", "disabledText": "base4", "foreground": "base8",
       "select": "yellow"
     },
     "CheckBoxMenuItem": {
@@ -628,7 +625,9 @@
       "warningBackground": "base8x0c",
       "warningBorderColor": "base8x0c"
     },
+
     "VersionControl": {
+
       "FileHistory": {
         "Commit": {
           "selectedBranchBackground": "base2"
