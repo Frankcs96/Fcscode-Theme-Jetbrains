@@ -3,7 +3,7 @@ plugins {
 }
 
 group 'tech.fcscode'
-version '1.3.0'
+version '1.3.1'
 
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {
@@ -16,6 +16,7 @@ patchPluginXml {
     version project.version
     changeNotes = """
     <ul>
+    <li>1.3.1   Java colorscheme improvement</li>
     <li>1.3.0   Fix shell/bash colorscheme</li>
     <li>1.2.0   Added git file status colors</li>
     <li>1.1.0   Added custom keymap bundle</li>
